@@ -1,0 +1,8 @@
+---
+services:
+  acestream-http-proxy:
+    image: ghcr.io/martinbjeldbak/acestream-http-proxy
+    container_name: acestream-http-proxy
+    ports:
+      - 6878:6878
+    platform: linux/amd64
